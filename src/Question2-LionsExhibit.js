@@ -12,4 +12,15 @@ import React from "react";
 
 const LionsExhibit = () => null;
 
+function TigersExhibit() {
+    return (
+      <div className="tigers">
+        <h2>Tigers</h2>
+        <p>There are ... tigers in the world</p>
+        <ul>{/* DELETE THIS LINE AND WRITE THE ANSWER PART B HERE */}</ul>
+      </div>
+    );
+  }
+
+  
 export default LionsExhibit;
